@@ -33,7 +33,7 @@ const Header = () => {
 
                     <div className='text-2xl text-slate-600 relative'>
                         <BsFillCartFill />
-                        <div className='absolute -top-2 -right-2 text-white bg-red-500 h-4 w-4 text-base text-center rounded-full'> 0 </div>
+                        <div className='absolute -top-2 -right-2 text-white bg-red-500 h-5 w-4 text-base text-center rounded-full '> 0 </div>
                     </div>
                     <div className='text-2xl text-slate-600' onClick={handleShowMenu}>
                         <div className='text-3xl cursor-pointer' >
