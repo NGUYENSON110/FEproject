@@ -4,6 +4,8 @@ import { BiSolidLockAlt } from "react-icons/bi";
 import './login.css';
 import { Link } from "react-router-dom"
 
+
+
 const Login = () => {
 
   const divStyle = {
@@ -44,6 +46,7 @@ const Login = () => {
       <div className='container'>
         <div className='form-box Login' style={divStyle}>
           <h2>Login</h2>
+         
           <form action='#' onSubmit={handleSubmit}>
             <div className='input-box'>
               <input type='text' required name='email'></input>
